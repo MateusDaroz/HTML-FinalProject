@@ -47,7 +47,6 @@ td:hover{
 }
 
 .botoes:hover{
-    transform: scale(1.3);
     background-color:#6d2a83;
     font-size: 110%;
     box-shadow: 0 0 7px white;
@@ -97,6 +96,10 @@ td:hover{
     border-radius: 20px;
 }
 
+.textareas:hover{
+    border-color: #6d2a83;
+}
+
 #botaotrocar{
     cursor: pointer;
     width: 70px;
@@ -107,7 +110,31 @@ td:hover{
     color: white;
 }
 
+#btnenviar:hover{
+    background-color:#6d2a83;
+    border-color: #372549;
+    color:white;
+}
 
+#btnenviar:active{
+    transition: 350ms ease-in-out;
+    background-color: #2f0a3b;
+}
+
+#btnresetar, #btnenviar{
+    transition: 250ms ease-in-out;
+}
+
+#btnresetar:hover{
+    background-color: red;
+    border-color: rgb(141, 52, 52);
+    color:white;
+}
+
+#btnresetar:active{
+    transition: 350ms ease-in-out;
+    background-color: darkred;
+}
 
 #divform{
     border: 1px solid white;
@@ -151,6 +178,10 @@ td:hover{
 
 #textanc{
     transition: 500ms ease-in-out;
+}
+
+#textanc:hover{
+    text-decoration: underline;
 }
 
 #textanc:active{

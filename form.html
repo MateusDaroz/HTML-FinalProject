@@ -53,17 +53,16 @@
                     <option value="Sertanejo">Sertanejo</option>
                     <option value="Eletrônica">Eletrônica</option>
                     <option value="Jazz">Jazz</option>
-                    <option value="Outro">Outro</option>
                 </select>
                 
                 <h1 class="subtitulo">Duração da Música:</h1>
-                    <input type="text" id="tempomusica" name="tempomusica" class="textareas" size="6" placeholder="(ex: 03:55)"  required accesskey="t" tabindex="5">
+                    <input type="text" id="tempomusica" name="tempomusica" class="textareas" size="7" placeholder="(ex: 03:55)"  required accesskey="t" tabindex="5">
                 <h1 class="subtitulo">Insira o Link da sua Música Abaixo:</h1>
-                    <input type="url" id="linkmusica" name="linkmusica" class="textareas" size="43" placeholder="(ex: https://youtu.be/LBt60dfwEBY?si=-ekA-1I-ELNjVSpU)" accesskey="y" tabindex="6">
+                    <input type="url" id="linkmusica" name="linkmusica" class="textareas" size="43" placeholder="(ex: https://youtu.be/LBt60dfwEBY?si=-ekA-1I-ELNjVSpU)" required accesskey="y" tabindex="6">
                 <h1 class="subtitulo">Envie uma Foto da Capa do Álbum:</h1>
                     <input type="file" id="imagemmusica" name="imagemmusica" class="textareas" style="background-color: white;" accept="image/*" required accesskey="u" tabindex="7"><br>
-                <input type="submit" class="formbuttons" style="width: 30%; margin: 4% 2% 2% 2%;" value="Enviar" accesskey="i" tabindex="8">
-                <input type="reset" class="formbuttons" style="width: 30%; margin: 4% 2% 2% 2%;" value="Limpar" accesskey="o" tabindex="9"> 
+                <input type="submit" class="formbuttons" id="btnenviar" style="width: 30%; margin: 4% 2% 2% 2%;" value="Enviar" accesskey="i" tabindex="8">
+                <input type="reset" class="formbuttons" id="btnresetar" style="width: 30%; margin: 4% 2% 2% 2%;" value="Limpar" accesskey="o" tabindex="9"> 
             </form>
         </div>
     </div>
